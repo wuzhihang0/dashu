@@ -1,0 +1,171 @@
+.header{
+	width: 100%;
+	height: 40px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 16px;	
+	text-align:center;
+	position: relative;
+	line-height: 40px;
+	z-index: 20;
+
+}
+.header .h-btn{
+	position: absolute;
+	left: 8px;
+}
+.container{
+	position: relative;
+	width: 100%;
+	font-size: 16px;
+	/*background-color: pink;*/
+}
+.bgc-black{
+	background-color: black;
+}
+.bgc-black{
+	color:#fff;
+
+}
+.banner-bg{
+	background: url('../images/banner.jpg') no-repeat ;
+	background-size: 100%;
+	/*height:16rem;*/
+	max-height: 320px;
+	padding-top: 200px;
+	padding-left: 50px;
+}
+.banner-text{
+	padding-bottom: 80px;
+	color:#fff;
+	
+}
+.banner-text .banner-text2{	
+	margin-top:5px;
+	
+	font-size: 32px;
+}
+.banner-text .banner-text2 span{
+	padding: 0 5px ;
+	background-color: red;
+	font-size: 32px;	
+	/*padding:5px;*/
+}
+
+.text-warp{
+	/*background-color: blue;*/
+	margin: 20px 40px;
+}
+.title h2 span{
+	/*background-color: yellow;*/
+	margin-left: -34px;
+	margin-right:10px;
+}
+.title>span{
+	display: block;
+	width: 30px;
+	border:2px solid red;
+}
+.title{
+	margin-bottom: 20px;
+}
+.title h2{
+	/*margin-left:20px;*/
+}
+.title span{
+	/*margin-right: 20px	;*/
+	color:red;
+}
+.vedios{
+	/*width: 100%;*/
+	margin:10px 20px;
+}
+video{
+	width: 100%;height: 10rem;
+}
+.list-box{
+	/*	*/
+	/*overflow: hidden;*/
+
+}
+.swiper-container {
+        width: 100%;
+       /* height: 300px;*/
+        margin: 0px auto;
+             background: #fafafa;
+    }
+.list-box ul{
+	width: 100%;
+	/*overflow: hidden;*/
+	padding:1rem; 
+	/* margin: 20px auto;*/
+
+	
+}
+.list-box ul li{
+	text-align: center;
+	width:4rem;
+	/*height:;*/
+	/*float: left;*/
+
+}
+.list-box ul li .svg-css{
+	height:2.4rem;
+}
+.list-box ul li .svg-css img{
+	display:inline-block;
+	width: 2rem;
+	height: 1.8rem;
+}
+.list-box ul li p:last-child{
+  color:#ccc;
+}
+.map{
+	background-color: yellow;
+	width: 100%;
+	height: 13rem;
+	overflow: hidden;
+}
+.mapBox{
+	width: 100%;
+	height:  100%;
+}
+footer p{
+	text-align:center;
+	padding:30px 0 22px;
+	color:#ccc; 
+	font-size: 12px
+}
+
+/*界面二*/
+
+
+
+
+
+
+
+.mask{
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;top: 0;bottom: 0;
+	margin:auto;
+	/*width: 100%;height: 100%;*/
+	background-color: rgba(0,0,0,0.8);
+	z-index: 10;
+}
+.mask ul{
+	margin:100px 50px; 
+}
+.mask ul li{
+	padding: 20px;
+	
+
+	border-bottom: 2px solid #fff;
+	text-align: center;
+}
+.mask ul li a{
+	color: #fff;
+	font-size: 0.8rem;
+}

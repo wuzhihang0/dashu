@@ -1,0 +1,114 @@
+.header{
+	width: 100%;
+	height: 40px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 16px;	
+	text-align:center;
+	position: relative;
+	line-height: 40px;
+	z-index: 20;
+
+}
+.header .h-btn{
+	position: absolute;
+	left: 8px;
+}
+.banner{
+	width: 100%;
+	height: 6.4rem;
+	max-height: 165px;
+	background:url('../images/banner2.jpg') no-repeat;
+	background-size: 100%;	
+	text-align: center;
+	
+	
+}
+.banner h3{
+	padding-top: 50px;
+	text-align: center;
+	color: #fff;
+}
+.nav{
+	background-color: #fafafa;
+	padding: 1.5rem 0.5rem;
+}
+.nav a{
+	display: inline-block;
+}
+.nav a p{
+	color:#000;
+	text-align: center;
+	font-size: 0.6rem;
+}
+.nav .active p{
+	color:#f00;
+	text-align: center;
+	font-size: 0.6rem;
+}
+.mask{
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;top: 0;bottom: 0;
+	margin:auto;
+	/*width: 100%;height: 100%;*/
+	background-color: rgba(0,0,0,0.8);
+	z-index: 10;
+}
+.mask ul{
+	margin:100px 50px; 
+}
+.mask ul li{
+	padding: 20px;
+	
+
+	border-bottom: 2px solid #fff;
+	text-align: center;
+}
+.mask ul li a{
+	color: #fff;
+	font-size: 0.8rem;
+}
+.active .intr-svg .st0 {
+			fill:#e20d22
+		}
+		.intr-svg {
+			width: 3rem;
+			height: 2rem;
+			margin-bottom: 0.6rem;
+		}
+.box{
+        width:16rem;
+       /* height: 7.5rem;*/
+        overflow: hidden;
+        position: relative;
+        margin:0 auto;
+    }
+    #box>ul{
+        width:96rem;
+        /*height: 8rem;*/
+        overflow: hidden;
+        transform: translateX(0rem);
+
+    }
+    #box>ul>li{
+    	
+        width:16rem;
+       
+        float: left;
+        font-size:0.8rem;
+   
+    }
+    .li-content{
+    	margin:0px 20px;
+    }
+    .box ul li h2{
+    	    font-size: 1.25rem;
+            color: #e20d22;
+            margin-bottom: 2.75rem;
+            margin-top: 1.5rem;
+    }
+    .box ul li p{
+    	/*width: 320px;*/
+    }
